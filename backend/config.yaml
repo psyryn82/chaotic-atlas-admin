@@ -1,0 +1,20 @@
+webhook_url: "https://discord.com/api/webhooks/your-placeholder-url"
+rcon_password: "changeme"
+grids:
+  - id: A1
+    port: 27015
+  - id: B1
+    port: 27016
+  - id: C1
+    port: 27017
+  - id: D1
+    port: 27018
+  - id: E1
+    port: 27019
+
+discord:
+  client_id: "YOUR_DISCORD_CLIENT_ID"
+  client_secret: "YOUR_DISCORD_CLIENT_SECRET"
+  redirect_uri: "http://localhost:8000/auth/callback"
+  allowed_users:
+    - "685711591282311188"

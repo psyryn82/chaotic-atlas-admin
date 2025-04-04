@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chaotic Atlas - Live Grid Dashboard</title>
+</head>
+<body>
+    <h1>🧭 Chaotic Atlas 5x5 Grid Status</h1>
+    <div id="content">Loading...</div>
+    <script>
+        async function loadData() {
+            const res = await fetch("http://localhost:8000/api/status");
+            const data = await res.json();
+            document.getElementById("content").innerText = JSON.stringify(data, null, 2);
+        }
+        loadData();
+    </script>
+</body>
+</html>

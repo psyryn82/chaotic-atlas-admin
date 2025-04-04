@@ -1,0 +1,57 @@
+{
+  "pvp": [
+    {
+      "name": "Blackbeard",
+      "kills": 58,
+      "ships_sunk": 12,
+      "time_played": "140h",
+      "grids_explored": 22,
+      "accuracy": "41%",
+      "top_weapon": "Carbine"
+    },
+    {
+      "name": "Anne Bonny",
+      "kills": 42,
+      "ships_sunk": 9,
+      "time_played": "120h",
+      "grids_explored": 18,
+      "accuracy": "47%",
+      "top_weapon": "Puckle"
+    },
+    {
+      "name": "Calico Jack",
+      "kills": 35,
+      "ships_sunk": 5,
+      "time_played": "85h",
+      "grids_explored": 15,
+      "accuracy": "38%",
+      "top_weapon": "Sword"
+    }
+  ],
+  "pve": [
+    {
+      "name": "TameMaster",
+      "tames": 103,
+      "discoveries": 44,
+      "time_played": "160h",
+      "grids_explored": 25,
+      "favorite_tame": "Elephant"
+    },
+    {
+      "name": "ExplorerJoe",
+      "tames": 56,
+      "discoveries": 81,
+      "time_played": "130h",
+      "grids_explored": 23,
+      "favorite_tame": "Tiger"
+    },
+    {
+      "name": "BeastQueen",
+      "tames": 78,
+      "discoveries": 52,
+      "time_played": "110h",
+      "grids_explored": 20,
+      "favorite_tame": "Shieldhorn"
+    }
+  ]
+}

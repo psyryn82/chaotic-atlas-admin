@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+python-valve
+pyyaml
+aiofiles
+itsdangerous
